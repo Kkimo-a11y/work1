@@ -29,5 +29,5 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: MyGoldApp-APK
-          path: build-app/platforms/android/app/build/outputs/apk/release/app-release-unsigned.apk
- 
+          path: build-app/platforms/android/app/build/outputs/apk/release/*.apk
+
